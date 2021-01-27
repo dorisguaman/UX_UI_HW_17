@@ -1,0 +1,51 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 25%;
+}
+.nav_links {
+    list-style: none;
+}
+.nav_links li {
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+footer {
+    background-color: #373738;
+    padding: 5%;
+  
+    
+}
+.footer_links li {
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+
+button {
+    padding: 9px 25px;
+    justify-content: center;
+    transform: translate(600px, -900%)
+}
+
+
+.content img {
+    cursor: pointer;
+    margin: 30px 75%;
+
+}
+
+.content p {
+    list-style: none;
+    text-align: center;
+    transform: translate(-100px, -1500%)
+    
+  
+}
+.content li {
+    list-style: none;
+    text-align: center;
+    transform: translate(-100px, -1500%)
+}
