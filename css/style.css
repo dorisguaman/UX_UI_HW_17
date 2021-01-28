@@ -20,14 +20,14 @@ footer {
 }
 .footer_links li {
     display: inline-block;
-    padding: 0px 20px;
+    padding: 5%;
 
 }
 
 button {
     padding: 9px 25px;
     justify-content: center;
-    transform: translate(600px, -900%)
+    transform: translate(410px, -800%)
 }
 
 
