@@ -5,33 +5,43 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-            <nav>
-                <ul class="nav_links">
-                    <li>about</li>
-                    <li>skills</li>
-                    <li>my work</li>
-                    <li>contact</li>
+    <div class="top-area">
+        <header class="header">
+            <nav class="nav">
+                <ul class="nav__inner">
+                    <li class="nav__link"><a href="#">about</a></li>
+                    <li class="nav__link"><a href="#">skills</a></li>
+                    <li class="nav__link"><a href="#">my work</a></li>
+                    <li class="nav__link"><a href="#">contact</a></li>
                 </ul>
             </nav>
         </header>
-       <heroImg>
-           <div class="content">
-               <img src="https://raw.githubusercontent.com/dorisguaman/UX_UI_HW_17/master/images/logo4.png" alt="logo">
-               <p>doris guaman
-                   <li>UX/UI designer</li>
-               </p>
-               <button>see resume</button>
-           </div>
-       </heroImg>
-       <footer>
-           <ul class= "footer_links">
-               <li>about</li>
-               <li>skills</li>
-               <li>work</li>
-               <li>contact</li>
-           </ul>
-       </footer>
-    </body>
+        <div class="hero container">
+            <div class="row">
+                <div class="col absolute-center">
+                    <div class="caption">
+                        <h1>doris guaman</h1>
+                        <p>UX/UI designer</p>
+                        <button class="btn btn--primary js-see-resume-btn">see resume</button>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <!-- <img src="https://raw.githubusercontent.com/dorisguaman/UX_UI_HW_17/master/images/logo4.png" alt="logo" /> -->
+                    <img src="./images/logo4.png" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <ul class= "footer_links">
+            <li>about</li>
+            <li>skills</li>
+            <li>work</li>
+            <li>contact</li>
+        </ul>
+    </footer>
+</body>
 </html>
 
